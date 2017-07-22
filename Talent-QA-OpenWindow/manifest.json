@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Talent QA Editor",
+  "name": "Talent QA Test Editor",
   "description": "Web Test Recorder",
   "version": "0.0.0.1",
   "background": {
@@ -10,8 +10,8 @@
     "persistent": true
   },
   "browser_action": {
-    "default_icon": "assets/icons/icon_TestLab01.png",
-    "default_title": "RCR Example",
+    "default_icon": "images/icon_TestLab01.png",
+    "default_title": "Talent QA Test Editor",
     "default_popup": "popup.html"
   },
   "content_scripts": [
@@ -22,6 +22,7 @@
     }
   ],
   "icons": {
-    "128": "assets/images/icon_TestLab01.png"
+    "64": "images/icon_TestLab01.png",
+    "128": "images/icon_TestLab01.png"
    }
 }
